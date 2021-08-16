@@ -1,0 +1,514 @@
+@media screen and (max-width:1330px) {
+.item-process {
+    margin: 0 0 0 25px;
+}
+.list-process:before {
+    left: 180px;
+}
+.inner-personal {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px 0 100px 0;
+}
+.inner-personal span {
+	line-height: 85px;
+    font-size: 85px;
+}
+.inner-personal .bottom-per {
+    top: 70%;
+}
+}
+@media screen and (max-width:1270px) {
+.location {
+    width: 53%;
+    padding-right: 0;
+    padding-top: 0px;
+}
+.location p {
+    font-size: 15px;
+}
+.banner h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.banner form input[type="text"] {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+}
+.banner form {
+    max-width: 400px;
+}
+.banner form button {
+    top: 8px;
+}
+}
+@media screen and (max-width:1100px) {
+.box-personal {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    max-width: 600px;
+}
+.item-personal {
+    margin: 10px 12px;
+}
+h1.page-title.personal {
+    text-align: center;
+}
+.item-process {
+    width: 120px;
+    height: 120px;
+}
+.list-process:before {
+    left: 0;
+    width: 70%;
+}
+.item-process:before {
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+}
+.menu-header ul li {
+    padding: 0 15px;
+}
+.menu-header::before {
+    right: -150px;
+}
+.top-header {
+    text-align: right;
+}
+.dots .btn-dots.prev {
+    left:-5px;
+}
+.dots .btn-dots.next {
+    right: -10px;
+}
+.login-form {
+    width: 38%;
+}
+}
+@media screen and (max-width:960px) {
+.main-content {
+    padding: 30px 0;
+    max-width: 600px;
+    margin: auto;
+}
+.job-wraper {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+i.toggle.fa.fa-ellipsis-v {
+    color: #dadada;
+    font-size: 30px;
+    padding-right: 10px;
+}
+.job-content {
+    max-width: 100%;
+    margin: 25px 0;
+}
+.item-people:nth-child(3){
+	display: none;
+}
+.item-people {
+    width: 46%;
+    margin: 0 2%;
+}
+.login {
+    display: none;
+}
+.top-header{
+	display: none;
+}
+.header {
+    padding: 10px 0 5px;
+}
+.form-search{
+	display: none;
+}
+.menu-header ul {
+    display: none;
+    padding-left: 0;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100%;
+}
+.menu-header ul li {
+    padding: 0 15px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.top-main-navigation {
+    display: block;
+}
+.menu-header::before {
+   display: none;
+}
+.main-header {
+    position: relative;
+}
+.menu-header {
+    display: block;
+    margin-top: 30px;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+.item-contact {
+    display: inline-block;
+    width: 48%;
+    margin: 0 1% 25px;
+}
+.box-presonal.step3 .step-next {
+    margin: 40px 0;
+}
+.box-presonal table tr th {
+    font-size: 16px;
+}
+.box-presonal.step3 table tr td {
+    padding: 15px 12px 15px 0;
+}
+.btn-table {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    display: block;
+    float: none;
+    margin: 5px 0;
+    max-width: 106px;
+}
+}
+@media screen and (max-width:880px) {
+.list-process:before {
+    display: none;
+}
+.item-process {
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 20px 10px;
+}
+.item-process.item-key6 {
+    margin: 0 10px 20px 10px;
+}
+.our-process {
+    text-align: center;
+}
+.our-process h2 {
+    text-align: right;
+}    
+.list-process {
+    display: block;
+    flex-wrap: inherit;
+}
+}
+@media screen and (max-width:850px) {
+.box-presonal table tr th {
+    font-size: 16px;
+}
+.box-presonal table tr td {
+    font-size: 16px;
+}
+.job-page .btn-table {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 0 8px;
+    margin-top: 5px;
+    display: block;
+    float: none;
+    max-width: 85px;
+    min-width: 80px;
+}
+.col-practice {
+    width: 49%;
+}
+.social-job {
+    display: block;
+    margin: 20px 0 0;
+}
+}
+@media screen and (max-width:767px) {
+.login-form {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.box-job.first {
+    padding-left: 0;
+}
+.box-job {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 20px;
+}
+h1.page-title {
+    font-size: 38px;
+    line-height: 38px;
+}
+.back-home {
+    display: none;
+}
+.job-content form select {
+    height: 50px;
+    width: 250px;
+}
+.job-content form button {
+    width: 50px;
+    height: 50px;
+    font-size: 19px;
+}
+h2.subtitle {
+    font-size: 36px;
+    line-height: 36px;
+}
+.info-footer .social-header {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+}
+.info-email {
+    display: block;
+    text-align: center;
+}
+.menu-footer {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.left-footer {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.banner h1 {
+    font-size: 35px;
+    line-height: 35px;
+}
+.our-people {
+    padding: 40px 0;
+}
+.our-contact{
+    padding: 20px 0;
+}
+.info-job {
+    margin: 50px 0;
+}
+.step-next {
+    margin: 50px 0;
+}
+}
+@media screen and (max-width:640px) {
+.modal-popup {
+    width: 300px;
+    min-height: 250px;
+}
+.inner-popup form label.file {
+    width: 95px;
+}
+.modal-popup h2 {
+    font-size: 35px;
+    padding: 10px 0;
+}
+.box-presonal {
+    margin: 25px 0;
+}
+.item-contact {
+    width: 100%;
+    min-height: 150px;
+}
+.location {
+    padding-top: 6px;
+}
+.banner form {
+    max-width: 250px;
+    margin: 5px auto 0;
+}
+.banner form input[type="text"] {
+    width: 94%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 2%;
+}
+.banner form button {
+    top: 6px;
+    font-size: 18px;
+    left: 5px;
+}
+.content-our-process {
+    padding: 30px 0;
+}
+.box-presonal table tr th {
+    font-size: 14px;
+    padding: 12px 0;
+    text-align: center;
+}
+.box-presonal.step3 table tr td {
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.box-presonal table tr td {
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.box-presonal table tr td:first-child {
+    text-align: right;
+}
+.btn-table {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    max-width: 50px;
+    padding: 0 2px;
+    font-size: 14px;
+}
+.job-page label:before {
+    width: 15px;
+    height: 15px;
+    right: -4px;
+    background-size: cover;
+}
+.job-page input[type="checkbox"]:checked + label:after {
+    width: 15px;
+    height: 15px;
+    right: 4px;
+    background-size: cover;
+    top: 3px;
+}
+.job-page .btn-table {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0;
+    margin: 5px auto;
+    display: block;
+    float: none;
+    max-width: 75px;
+}
+.pagenavi {
+    margin: 30px auto 30px;
+}
+}
+@media screen and (max-width:560px) {
+.info-job .back-step {
+	font-size: 19px;
+    margin: 10px 0;
+}
+.inner-personal {
+    width: 160px;
+    height: 160px;
+    border-radius: 70px 0 70px 0;
+}
+.item-personal {
+    margin: 5px;
+}
+.inner-personal span {
+    line-height: 50px;
+    font-size: 50px;
+}
+.inner-personal h3 {
+    font-size: 16px;
+    line-height: 18px;
+    padding-right: 5px;
+}
+.inner-personal p {
+    font-weight: 300;
+    font-size: 12px;
+    display: block;
+    line-height: 14px;
+}
+}
+@media screen and (max-width:530px) {
+
+.list-facebook span{
+	width: 100% !important;
+}
+.list-facebook iframe{
+	width: 100% !important;
+}
+.item-people:nth-child(2){
+	display: none;
+}
+.slider-people {
+    margin: 40px 15px 0;
+}
+.item-people {
+    width: 96%;
+    margin: 0 2%;
+}
+.dots .btn-dots.next {
+    right: -15px;
+}
+.dots .btn-dots.prev {
+    left: -15px;
+}
+.close-popup {
+    right: 0;
+}
+}
+@media screen and (max-width:480px) {
+.form-registration form input[type="email"] {
+    width: 100%;
+    max-width: 250px;
+}
+.form-registration form button {
+    float: none;
+    margin-left: 0;
+}
+}
+@media screen and (max-width:420px) {
+.upload-new {
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.job-code span {
+    font-size: 18px;
+    padding-left: 0;
+    display: block;
+}
+.item-process {
+    width: 120px;
+    height: 120px;
+}
+.col-practice {
+    width: 100%;
+    margin:0;
+}
+.banner h1 {
+    font-size: 25px;
+    line-height: 20px;
+}
+.link-more .btn-more {
+    font-size: 18px;
+    padding: 0 8px;
+    margin: 0;
+}
+.modal-popup {
+    width: 260px;
+}
+}
+@media screen and (max-width:400px) {
+.btn-regis {
+    margin: 5px 0;
+}
+}
+@media screen and (max-width:360px) {
+h1.page-title {
+    font-size: 32px;
+    line-height: 33px;
+}
+}

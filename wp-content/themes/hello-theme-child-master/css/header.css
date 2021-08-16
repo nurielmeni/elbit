@@ -1,0 +1,46 @@
+.main-header .menu-header-new {
+  width: 100%;
+  margin-left: 1rem;
+  position: relative;
+  height: 3rem;
+}
+
+.main-header img {
+  width: 40vw;
+  max-width: 210px;
+}
+
+.main-header .menu-header-new ul {
+  margin: 0;
+  padding: 0 3rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main-header .menu-header-new ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header .menu-header-new ul li a {
+  color: #004691;
+  white-space: nowrap;
+  position: relative;
+  padding: 0.5rem 1.15rem;
+  border: 3px solid #ffe14f;
+}
+
+.main-header .menu-header-new ul li a:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: '';
+  border-top: 1.25rem solid #004691;
+  border-left: 1.25rem solid #9c151500;
+}
+
+.main-header .menu-header-new ul li:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'ploni';
+  src: url('font-ploni/ploni-regular-aaa.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ploni';
+  font-weight: bold;
+  src: url('font-ploni/ploni-bold-aaa.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ploni';
+  font-weight: light;
+  src: url('font-ploni/ploni-light-aaa.otf') format('opentype');
+}
+
+main.site-main.post-420 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main.site-main.post-420 {
+  font-family: ploni, sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  background-color: #f7e1d9;
+  direction: rtl;
+}
+
+main.site-main.post-420 figure,
+main.site-main.post-420 figure > img {
+  width: 100%;
+  height: auto;
+}
+
+main.site-main.post-420 .text-left {
+  text-align: left;
+  direction: ltr;
+}
+
+main.site-main.post-420 .error-code {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+main.site-main.post-420 .content {
+  max-width: 740px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+main.site-main.post-420 .content.larger {
+  font-size: 1.25rem;
+}
+
+main.site-main.post-420 .content.text-center {
+  text-align: center;
+}
+
+main.site-main.post-420 .content a {
+}

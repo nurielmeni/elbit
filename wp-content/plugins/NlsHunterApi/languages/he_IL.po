@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NlsHunterApi\n"
+"POT-Creation-Date: 2020-07-30 19:54+0300\n"
+"PO-Revision-Date: 2020-07-30 19:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: NlsHunterApi.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-NlsHunterApi-admin.php:147
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך הרשאות מספיקות כדי לגשת לעמוד זה"
+
+#: includes/class-NlsHunterApi-modules.php:75
+msgid "Page was not provided (Hunter Plugin Admin) - "
+msgstr "דף תוצאות חיפוש לא סופק (ניהול תוסף האנטר)"
+
+#: includes/class-NlsHunterApi-modules.php:76
+#: includes/class-NlsHunterApi-modules.php:118
+msgid "Missing Settings"
+msgstr "הגדרות חסרות"
+
+#: includes/class-NlsHunterApi-modules.php:103
+msgid "Could not connect to Hunter Services"
+msgstr "אין אפשרות להתחבר לשירותי האנטר"
+
+#: includes/class-NlsHunterApi-modules.php:104
+msgid "Authentication Error"
+msgstr "שגיאת הזדהות"
+
+#: includes/class-NlsHunterApi-modules.php:117
+msgid "Search Results page was not provided (Hunter Plugin Admin)."
+msgstr "דף תוצאות חיפוש לא סופק (ניהול תוסף האנטר)"
+
+#: includes/class-NlsHunterApi-modules.php:240
+msgid "Job ID is missing (was not provided)."
+msgstr "מזהה משרה חסר (לא סופק)"
+
+#: includes/class-NlsHunterApi-modules.php:241
+msgid "Could not display Job Details"
+msgstr "לא היתה אפשרות להציג פרטי משרה"
+
+#: public/class-NlsHunterApi-public.php:206
+msgid "CV without a Job"
+msgstr "קורות חיים ללא משרה"
+
+#: public/class-NlsHunterApi-public.php:253
+msgid "CV Applied from Taas Jobs Site"
+msgstr "קורות חיים מאתר משרות תעש"
+
+#: public/class-NlsHunterApi-public.php:260
+msgid "Applied CV from Jobs Site"
+msgstr "קורות חיים שהוגשו דרך אתר משרות"
+
+#: public/class-NlsHunterApi-public.php:262
+msgid "Job ID: "
+msgstr "מזהה משרה: "
+
+#: public/class-NlsHunterApi-public.php:266
+msgid "Name: "
+msgstr "שם: "
+
+#: public/class-NlsHunterApi-public.php:270
+msgid "ID: "
+msgstr "ת.ז. "
+
+#: public/class-NlsHunterApi-public.php:292
+msgid "Thenk you for applying"
+msgstr "תודה על פנייתך"
+
+#: public/class-NlsHunterApi-public.php:293
+msgid " CV sent successfully"
+msgstr "קו\"ח נשלחו בהצלחה"
+
+#: public/class-NlsHunterApi-public.php:294
+#: public/class-NlsHunterApi-public.php:304
+msgid "Back"
+msgstr "חזרה"
+
+#: public/class-NlsHunterApi-public.php:302
+msgid "Some error occured"
+msgstr "התרחשה שגיאה"
+
+#: public/class-NlsHunterApi-public.php:303
+msgid "No CV was not submited"
+msgstr "לא נשלחו קורות חיים"
+
+#: public/partials/applyForJobs.php:6
+msgid "Submit CVs"
+msgstr "הגשת קו\"ח"
+
+#: public/partials/applyForJobs.php:17
+msgid "Name"
+msgstr "שם"
+
+#: public/partials/applyForJobs.php:18
+msgid "ID"
+msgstr "ת.ז."
+
+#: public/partials/applyForJobs.php:20
+msgid "Upload CV File"
+msgstr "העלאת קובץ קו\"ח"
+
+#: public/partials/applyForJobs.php:24
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: public/partials/applyForJobs.php:28
+msgid "Browse File"
+msgstr "עיון בקובץ"
+
+#: public/partials/applyForJobs.php:32
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: public/partials/applyForJobs.php:35
+msgid "Prefered file types doc, dox, pdf"
+msgstr "סוגי קבצים רצויים doc, dox, pdf"
+
+#: public/partials/applyForJobs.php:40 public/partials/hotJobs.php:10
+#: public/partials/jobDetails.php:38 public/partials/searchResults copy.php:50
+#: copy.php:54 public/partials/searchResultsMobile.php:10
+msgid "Submit CV"
+msgstr "הגשת קו\"ח"
+
+#: public/partials/hotJobs.php:2
+msgid "Hot Jobs"
+msgstr "משרות חמות"
+
+#: public/partials/hotJobs.php:8
+msgid "More Details"
+msgstr "פרטים נוספים"
+
+#: public/partials/jobDetails.php:2
+msgid "Job Details"
+msgstr "תאור משרה"
+
+#: public/partials/jobDetails.php:6 public/partials/searchResults copy.php:19
+#: public/partials/searchResults.php:29
+msgid "Last Update"
+msgstr "עדכון אחרון"
+
+#: public/partials/jobDetails.php:10 public/partials/searchResults copy.php:17
+#: public/partials/searchResults.php:27
+msgid "Job Code"
+msgstr "קוד משרה"
+
+#: public/partials/jobDetails.php:14 public/partials/searchResults copy.php:18
+#: public/partials/searchResults.php:28
+msgid "Location"
+msgstr "מיקום"
+
+#: public/partials/jobDetails.php:19
+msgid "Missing"
+msgstr "חסר"
+
+#: public/partials/jobDetails.php:29
+msgid "Job Description"
+msgstr "תיאור המשרה"
+
+#: public/partials/jobDetails.php:33
+msgid "Job Requirements"
+msgstr "דרישות המשרה"
+
+#: public/partials/searchForm copy.php:2 public/partials/searchForm.php:2
+#: public/partials/searchForm.php:7
+msgid "Job Search"
+msgstr "חיפוש משרה"
+
+#: public/partials/searchForm copy.php:7 public/partials/searchForm.php:25
+#: public/partials/searchForm.php:26
+msgid "Job Type"
+msgstr "סוג משרה"
+
+#: public/partials/searchForm copy.php:12 public/partials/searchForm.php:20
+#: public/partials/searchForm.php:21
+msgid "Main Professional Field"
+msgstr "תחום עיסוק"
+
+#: public/partials/searchForm copy.php:17 public/partials/searchForm.php:30
+#: public/partials/searchForm.php:31
+msgid "Area"
+msgstr "אזור גיאוגרפי"
+
+#: public/partials/searchForm copy.php:22 public/partials/searchForm.php:10
+#: public/partials/searchForm.php:35
+msgid "Search By Keyword or Job Number"
+msgstr "חיפוש לפי מילות מפתח"
+
+#: public/partials/searchForm copy.php:23 public/partials/searchForm.php:36
+msgid "Type Here"
+msgstr "לדוגמא: משרת סייבר בבאר שבע"
+
+#: public/partials/searchForm copy.php:29
+msgid "Submit to general pool"
+msgstr "הגש קו\"ח למאגר כללי"
+
+#: public/partials/searchForm copy.php:32 public/partials/searchForm.php:40
+msgid "Search"
+msgstr "חפש"
+
+#: public/partials/searchForm copy.php:33 public/partials/searchForm.php:13
+#: public/partials/searchForm.php:44
+msgid "clear"
+msgstr "נקה/י חיפוש"
+
+#: public/partials/searchResults copy.php:2 public/partials/searchResults.php:4
+#: public/partials/searchResultsMobile.php:2
+msgid "Search Results"
+msgstr "תוצאות חיפוש משרה"
+
+#: public/partials/searchResults copy.php:4
+#: public/partials/searchResults.php:14
+#: public/partials/searchResultsMobile.php:4
+msgid "New Search"
+msgstr "חיפוש חדש"
+
+#: public/partials/searchResults copy.php:15
+#: public/partials/searchResults.php:25
+msgid "Job Name"
+msgstr "שם משרה"
+
+#: public/partials/searchResults copy.php:31
+#: public/partials/searchResults.php:41
+msgid "View Job"
+msgstr "הצג משרה"
+
+#: public/partials/searchResults copy.php:45
+#: public/partials/searchResults.php:55
+#: public/partials/searchResultsMobile.php:26
+msgid "Prev"
+msgstr "קודם"
+
+#: public/partials/searchResults copy.php:46
+#: public/partials/searchResults.php:56
+#: public/partials/searchResultsMobile.php:27
+msgid "Next"
+msgstr "הבא"
+
+#: public/partials/searchResults copy.php:51
+msgid "Without selecting job"
+msgstr "ללא בחירת משרה"
+
+#: public/partials/searchResults copy.php:55
+msgid "To selected jobs"
+msgstr "למשרות המסומנות"
+
+#: public/partials/searchResults.php:7
+msgid "Submit CV several jobs"
+msgstr "הגשת קו”ח למס’ משרות"
+
+#: public/partials/searchResultsMobile.php:13
+msgid "Share Job"
+msgstr "שיתוף משרה"
+
+#: public/partials/searchResultsMobile.php:18
+msgid "Submit Several Jobs"
+msgstr "הגשת מועמדות למספר משרות"
+
+#. Plugin Name of the plugin/theme
+msgid "NlsHunterApi"
+msgstr "‫NlsHunterApi"
+
+#. Description of the plugin/theme
+msgid "API fot Niloosoft HunterHRMS System."
+msgstr "‫API פיט רבוע Niloosoft מערכת HunterHRMS"
+
+#. Author of the plugin/theme
+msgid "Meni Nurie"
+msgstr "מני נוריאל"

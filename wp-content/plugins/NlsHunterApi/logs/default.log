@@ -1,0 +1,664 @@
+20200914 debug JobIds: Array
+(
+    [0] => 111067
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => nbh
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222222226
+        )
+
+    [cell] => Array
+        (
+            [label] => טלפון נייד
+            [value] => 0508889999
+        )
+
+    [email] => Array
+        (
+            [label] => דוא״ל
+            [value] => dd@hhh.cc
+        )
+
+    [city] => Array
+        (
+            [label] => עיר מגורים
+            [value] => 
+        )
+
+    [isCitizenship] => Array
+        (
+            [label] => האם יש לך אזרחות אחרת
+            [value] => no
+        )
+
+    [citizenship] => Array
+        (
+            [label] => אזרחות נוספת
+            [value] => 
+        )
+
+    [strongSide] => Array
+        (
+            [label] => הצד החזק שלי הוא
+            [value] => 0
+        )
+
+    [student] => Array
+        (
+            [label] => אני כיום סטודנט
+            [value] => no
+        )
+
+    [dateDegree] => Array
+        (
+            [label] => תאריך סיום התואר
+            [value] => 
+        )
+
+    [avarage] => Array
+        (
+            [label] => ממוצע עדכני לתואר
+            [value] => 
+        )
+
+    [relative] => Array
+        (
+            [label] =>  האם יש לך קרוב/ת משפחה העובד/ת בחברה?
+            [value] => no
+        )
+
+    [relation] => Array
+        (
+            [label] => קרבה לעובד חברה
+            [value] => 
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20200914 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_890.pdf20200914 debug JobIds: Array
+(
+    [0] => 111067
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => fjhg
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222222226
+        )
+
+    [cell] => Array
+        (
+            [label] => טלפון נייד
+            [value] => 04088484844
+        )
+
+    [email] => Array
+        (
+            [label] => דוא״ל
+            [value] => erfe@efe.efe
+        )
+
+    [city] => Array
+        (
+            [label] => עיר מגורים
+            [value] => 
+        )
+
+    [isCitizenship] => Array
+        (
+            [label] => האם יש לך אזרחות אחרת
+            [value] => no
+        )
+
+    [citizenship] => Array
+        (
+            [label] => אזרחות נוספת
+            [value] => 
+        )
+
+    [strongSide] => Array
+        (
+            [label] => הצד החזק שלי הוא
+            [value] => 0
+        )
+
+    [student] => Array
+        (
+            [label] => אני כיום סטודנט
+            [value] => no
+        )
+
+    [dateDegree] => Array
+        (
+            [label] => תאריך סיום התואר
+            [value] => 
+        )
+
+    [avarage] => Array
+        (
+            [label] => ממוצע עדכני לתואר
+            [value] => 
+        )
+
+    [relative] => Array
+        (
+            [label] =>  האם יש לך קרוב/ת משפחה העובד/ת בחברה?
+            [value] => no
+        )
+
+    [relation] => Array
+        (
+            [label] => קרבה לעובד חברה
+            [value] => 
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20200914 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_104.pdf20200914 debug JobIds: Array
+(
+    [0] => 111067
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => erh
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222222226
+        )
+
+    [cell] => Array
+        (
+            [label] => טלפון נייד
+            [value] => 0207788877
+        )
+
+    [email] => Array
+        (
+            [label] => דוא״ל
+            [value] => dd@dff.dff
+        )
+
+    [city] => Array
+        (
+            [label] => עיר מגורים
+            [value] => 
+        )
+
+    [isCitizenship] => Array
+        (
+            [label] => האם יש לך אזרחות אחרת
+            [value] => no
+        )
+
+    [citizenship] => Array
+        (
+            [label] => אזרחות נוספת
+            [value] => 
+        )
+
+    [strongSide] => Array
+        (
+            [label] => הצד החזק שלי הוא
+            [value] => 2700
+        )
+
+    [student] => Array
+        (
+            [label] => אני כיום סטודנט
+            [value] => no
+        )
+
+    [dateDegree] => Array
+        (
+            [label] => תאריך סיום התואר
+            [value] => 
+        )
+
+    [avarage] => Array
+        (
+            [label] => ממוצע עדכני לתואר
+            [value] => 
+        )
+
+    [relative] => Array
+        (
+            [label] =>  האם יש לך קרוב/ת משפחה העובד/ת בחברה?
+            [value] => no
+        )
+
+    [relation] => Array
+        (
+            [label] => קרבה לעובד חברה
+            [value] => 
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20200914 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_408.pdf20200914 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 109833
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 
+        )
+
+    [cell] => Array
+        (
+            [label] => טלפון נייד
+            [value] => 
+        )
+
+    [email] => Array
+        (
+            [label] => דוא״ל
+            [value] => 
+        )
+
+    [city] => Array
+        (
+            [label] => עיר מגורים
+            [value] => 
+        )
+
+    [isCitizenship] => Array
+        (
+            [label] => האם יש לך אזרחות אחרת
+            [value] => 
+        )
+
+    [citizenship] => Array
+        (
+            [label] => אזרחות נוספת
+            [value] => 
+        )
+
+    [strongSide] => Array
+        (
+            [label] => הצד החזק שלי הוא
+            [value] => 
+        )
+
+    [student] => Array
+        (
+            [label] => אני כיום סטודנט
+            [value] => 
+        )
+
+    [dateDegree] => Array
+        (
+            [label] => תאריך סיום התואר
+            [value] => 
+        )
+
+    [avarage] => Array
+        (
+            [label] => ממוצע עדכני לתואר
+            [value] => 
+        )
+
+    [relative] => Array
+        (
+            [label] =>  האם יש לך קרוב/ת משפחה העובד/ת בחברה?
+            [value] => 
+        )
+
+    [relation] => Array
+        (
+            [label] => קרבה לעובד חברה
+            [value] => 
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: 20201011 debug tmpCvFile: 20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 109833
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 
+        )
+
+    [cell] => Array
+        (
+            [label] => טלפון נייד
+            [value] => 
+        )
+
+    [email] => Array
+        (
+            [label] => דוא״ל
+            [value] => 
+        )
+
+    [city] => Array
+        (
+            [label] => עיר מגורים
+            [value] => 
+        )
+
+    [isCitizenship] => Array
+        (
+            [label] => האם יש לך אזרחות אחרת
+            [value] => 
+        )
+
+    [citizenship] => Array
+        (
+            [label] => אזרחות נוספת
+            [value] => 
+        )
+
+    [strongSide] => Array
+        (
+            [label] => הצד החזק שלי הוא
+            [value] => 
+        )
+
+    [student] => Array
+        (
+            [label] => אני כיום סטודנט
+            [value] => 
+        )
+
+    [dateDegree] => Array
+        (
+            [label] => תאריך סיום התואר
+            [value] => 
+        )
+
+    [avarage] => Array
+        (
+            [label] => ממוצע עדכני לתואר
+            [value] => 
+        )
+
+    [relative] => Array
+        (
+            [label] =>  האם יש לך קרוב/ת משפחה העובד/ת בחברה?
+            [value] => 
+        )
+
+    [relation] => Array
+        (
+            [label] => קרבה לעובד חברה
+            [value] => 
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_119.pdf20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 111338
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_678.pdf20201011 debug JobIds: Array
+(
+    [0] => 111338
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_356.pdf20201011 debug JobIds: Array
+(
+    [0] => 111385
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_198.pdf20201011 debug JobIds: Array
+(
+    [0] => 111296
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_447.pdf20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 106417
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_412.pdf20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 111385
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 028658243
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_925.pdf20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 111296
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_306.pdf20201011 debug 
+Mail Result: 20201011 debug JobIds: Array
+(
+    [0] => 111296
+)
+, Fields: Array
+(
+    [name] => Array
+        (
+            [label] => שם
+            [value] => מני
+        )
+
+    [id] => Array
+        (
+            [label] => תעודת זהות
+            [value] => 222333445
+        )
+
+    [sid] => Array
+        (
+            [label] => מזהה ספק
+            [value] => c09e80fc-e23f-4fea-b621-0d344afce946
+        )
+
+)
+, File Name: Test Doc.pdf20201011 debug tmpCvFile: /var/www/html/wp-content/uploads/cvTempFilesCV_FILE_560.pdf20201011 debug 
+Mail Result: 
