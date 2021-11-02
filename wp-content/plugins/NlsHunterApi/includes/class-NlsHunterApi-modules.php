@@ -74,7 +74,6 @@ class NlsHunterApi_modules {
         return ob_get_clean();
     }   
     
-    
     /**
      * Handler for slider people shortcode
      */

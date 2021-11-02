@@ -41,7 +41,7 @@
   function getSelectedJobs() {
     var selected = [];
     $.each(
-      $('.box-presonal.job-page input[type="checkbox"]:checked'),
+      $('.box-presonal.job-page .checkbox.sr-select span.is-checked'),
       function () {
         selected.push($(this).attr('jobcode'));
       }
@@ -59,8 +59,11 @@
     // Show the form in the modal
     jQuery('#modal-wrapper .inner-popup.apply-form').show();
 
-    // Show the modal
-    jQuery('#modal-wrapper').show('slow');
+    // Show the modal and Focus on the first input field
+    jQuery('#modal-wrapper').show('slow').find('input#name').focus();
+
+    // [tabindex]:not([tabindex="-1"])
+    //  jQuery('#modal-wrapper').find('a[href], button, input, textarea, select, details, [role="button"]').attr('tabindex', 0);
   }
 
   $(document).ready(function () {
@@ -173,12 +176,11 @@
     });
 
     // Enable/Disable submit to selected jobs
-    $('.box-presonal.job-page input[type="checkbox"]').on(
+    $('.box-presonal.job-page .checkbox-element').on(
       'change',
       function () {
         if (
-          $('.box-presonal.job-page input[type="checkbox"]:checked').length ===
-          0
+          $('.box-presonal.job-page .checkbox-element.is-checked').length === 0
         ) {
           $('.step-next.pagenavis .back-step.submit-multi').addClass(
             'disabled'
@@ -207,6 +209,7 @@
     });
 
     // Show the Job Details page (from Search Results and Hot Jobs modules)
+    /*
     $(document).on(
       'click',
       '.box-presonal.job-page label > span',
@@ -217,6 +220,7 @@
         window.location.assign(jobDetailsPageUrl + '?jobcode=' + jobCode);
       }
     );
+    */
 
     // Clear the search form
     $('.nls-search-module a.clear').on('click', nls.clearFields);

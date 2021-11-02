@@ -1,8 +1,10 @@
 <tr class="job-row">
     <td>
         <div class="checkbox sr-select">
-            <input type="checkbox" id="<?= $job['jobCode'] ?>" jobcode="<?= $job['jobCode'] ?>" name="<?= $job['jobCode'] ?>" value="<?= $job['jobTitle'] ?>">
-            <label for="<?= $job['jobCode'] ?>"><span><?= $job['jobTitle'] ?></span></label>
+            <span class="checkbox-element" id="<?= $job['jobCode'] ?>" jobcode="<?= $job['jobCode'] ?>">
+                <div class="check"></div>
+            </span>
+            <label for="<?= $job['jobCode'] ?>"><a href="/job-details?jobcode=<?= $job['jobCode'] ?>"><?= $job['jobTitle'] ?></a></label>
         </div>
     </td>
     <td><?= $job['jobCode'] ?></td>
@@ -11,3 +13,6 @@
         <a href="#" class="btn-table download" jobcode="<?= $job['jobCode'] ?>">הגשת קו"ח ></a>
     </td>
 </tr>
+<script>
+    new Checkbox(document.getElementById('<?= $job['jobCode'] ?>'));
+</script>

@@ -110,6 +110,7 @@ class NlsHunterApi_Public {
 		wp_enqueue_script( $this->NlsHunterApi, plugin_dir_url( __FILE__ ) . 'js/NlsHunterApi-public.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( 'mobile_event', plugin_dir_url( __FILE__ ) . 'js/mobileEvent.js', null, $this->version, false );
 		wp_enqueue_script( 'people_slider', plugin_dir_url( __FILE__ ) . 'js/slider.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( 'checkbox', plugin_dir_url( __FILE__ ) . 'js/checkbox.js', [], $this->version, false );
         
         /** Form Validators Script **/
         // included in taas object defined in   NlsHunterApi-public.js
@@ -361,7 +362,7 @@ class NlsHunterApi_Public {
     
     private function sentSuccess($sent) {
         $html = '  <h2>' . __('Send cv', 'NlsHunterApi') . '</h2><br>';
-        $html .= ' <p>' . __('Thenk you for applying, the form submited successfully!', 'NlsHunterApi') . '</p>';
+        $html .= ' <p role="alert">' . __('Thenk you for applying, the form submited successfully!', 'NlsHunterApi') . '</p>';
         $html .= ' <a href="#" class="back-step"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>' . __('Back', 'NlsHunterApi') . '  </a>';
         
         return $html;
@@ -369,7 +370,7 @@ class NlsHunterApi_Public {
 
     private function sentError($msg = '') {
         $html = '  <h2>' . __('Error occured', 'NlsHunterApi') . '</h2><br>';
-        $html .= ' <p>' . __('The cv could not be sent successfully!', 'NlsHunterApi') . '</p>';
+        $html .= ' <p role="alert">' . __('The cv could not be sent successfully!', 'NlsHunterApi') . '</p>';
         $html .= ' <a href="#" class="back-step"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>' . __('Back', 'NlsHunterApi') . '  </a>';
                 
         return $html;

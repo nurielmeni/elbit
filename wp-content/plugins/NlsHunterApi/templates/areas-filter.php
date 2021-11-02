@@ -5,5 +5,5 @@
             <option value="<?= $key ?>"><?= $value ?></option>
         <?php endforeach; ?>
     </select>
-    <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <button type="button" aria-label="חפש לפי איזור"><i class="fa fa-search" aria-hidden="true"></i></button>
 </form>

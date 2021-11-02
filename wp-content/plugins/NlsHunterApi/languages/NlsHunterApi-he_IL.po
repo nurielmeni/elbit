@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NlsHunterApi\n"
-"POT-Creation-Date: 2021-01-04 22:29+0200\n"
-"PO-Revision-Date: 2021-01-04 22:30+0200\n"
+"POT-Creation-Date: 2021-11-02 15:14+0200\n"
+"PO-Revision-Date: 2021-11-02 15:17+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
 "2 : 3);\n"
@@ -30,30 +30,30 @@ msgstr "אין לך הרשאות מספיקות כדי לגשת לעמוד זה.
 msgid "Select"
 msgstr "בחר"
 
-#: includes/class-NlsHunterApi-model.php:218
+#: includes/class-NlsHunterApi-model.php:219
 msgid "Page was not provided (Hunter Plugin Admin) - "
 msgstr "דף תוצאות חיפוש לא סופק (ניהול תוסף האנטר) - "
 
-#: includes/class-NlsHunterApi-model.php:219
-#: includes/class-NlsHunterApi-modules.php:176
+#: includes/class-NlsHunterApi-model.php:220
+#: includes/class-NlsHunterApi-modules.php:175
 msgid "Missing Settings"
 msgstr "הגדרות חסרות"
 
-#: includes/class-NlsHunterApi-model.php:240
+#: includes/class-NlsHunterApi-model.php:241
 msgid "Could not connect to Hunter Directory Services"
 msgstr "אין אפשרות להתחבר לשירותי האנטר"
 
-#: includes/class-NlsHunterApi-model.php:241
+#: includes/class-NlsHunterApi-model.php:242
 msgid "Authentication Error"
 msgstr "שגיאת הזדהות"
 
-#: includes/class-NlsHunterApi-model.php:355
-#: includes/class-NlsHunterApi-model.php:365
+#: includes/class-NlsHunterApi-model.php:346
+#: includes/class-NlsHunterApi-model.php:356
 msgid "Job Code is missing (or not found)."
 msgstr "מזהה משרה חסר (לא סופק)"
 
-#: includes/class-NlsHunterApi-model.php:356
-#: includes/class-NlsHunterApi-model.php:366
+#: includes/class-NlsHunterApi-model.php:347
+#: includes/class-NlsHunterApi-model.php:357
 msgid "Could not display Job Details"
 msgstr "לא היתה אפשרות להציג פרטי משרה"
 
@@ -77,62 +77,64 @@ msgstr "משרות חדשות"
 msgid "Found by the smart agent"
 msgstr "שנמצאו ע”י הסוכן החכם"
 
-#: includes/class-NlsHunterApi-modules.php:175
+#: includes/class-NlsHunterApi-modules.php:174
 msgid "Search Results page was not provided (Hunter Plugin Admin)."
 msgstr "דף תוצאות חיפוש לא סופק (ניהול תוסף האנטר)"
 
-#: includes/class-NlsHunterApi-modules.php:210
+#: includes/class-NlsHunterApi-modules.php:209
 #: public/partials/searchResultsMobile.php:2
 msgid "Search Results"
 msgstr "תוצאות חיפוש משרה"
 
-#: public/class-NlsHunterApi-public.php:196
+#: public/class-NlsHunterApi-public.php:203
 msgid "Error on uploading the file"
 msgstr "התרחשה שגיאה בהעלאת הקובץ"
 
-#: public/class-NlsHunterApi-public.php:203
+#: public/class-NlsHunterApi-public.php:210
 msgid "Name"
 msgstr "שם"
 
-#: public/class-NlsHunterApi-public.php:204 public/partials/applyForJobs.php:44
+#: public/class-NlsHunterApi-public.php:211 public/partials/applyForJobs.php:44
 msgid "ID"
 msgstr "תעודת זהות"
 
-#: public/class-NlsHunterApi-public.php:216
+#: public/class-NlsHunterApi-public.php:223
 msgid "Supplier Id"
 msgstr "מזהה ספק"
 
-#: public/class-NlsHunterApi-public.php:241
+#: public/class-NlsHunterApi-public.php:248
 msgid "CV without a Job"
 msgstr "קורות חיים ללא משרה"
 
-#: public/class-NlsHunterApi-public.php:300
+#: public/class-NlsHunterApi-public.php:307
 msgid "Applicant form data: "
 msgstr "פרטי טופס עבור מועמד: "
 
-#: public/class-NlsHunterApi-public.php:321
-msgid "CV Applied from Shaari Tzedek Jobs Site"
-msgstr "קורות חיים מאתר משרות אלביט"
+#: public/class-NlsHunterApi-public.php:330
+#, fuzzy
+#| msgid "Applied CV from Jobs Site"
+msgid "CV Applied Elbit Jobs Site"
+msgstr "קורות חיים שהוגשו דרך אתר משרות"
 
-#: public/class-NlsHunterApi-public.php:355 public/partials/popup.php:6
+#: public/class-NlsHunterApi-public.php:364 public/partials/popup.php:6
 #: public/partials/popup.php:12
 msgid "Send cv"
 msgstr "שלח/י קורות חיים"
 
-#: public/class-NlsHunterApi-public.php:356
+#: public/class-NlsHunterApi-public.php:365
 msgid "Thenk you for applying, the form submited successfully!"
 msgstr "קורות החיים הוגשו בהצלחה.<br>תודה על פנייתך."
 
-#: public/class-NlsHunterApi-public.php:357
-#: public/class-NlsHunterApi-public.php:365 public/partials/popup.php:9
+#: public/class-NlsHunterApi-public.php:366
+#: public/class-NlsHunterApi-public.php:374 public/partials/popup.php:9
 msgid "Back"
 msgstr "חזרה"
 
-#: public/class-NlsHunterApi-public.php:363
+#: public/class-NlsHunterApi-public.php:372
 msgid "Error occured"
 msgstr "התרחשה שגיאה"
 
-#: public/class-NlsHunterApi-public.php:364
+#: public/class-NlsHunterApi-public.php:373
 msgid "The cv could not be sent successfully!"
 msgstr "קורות החיים לא נשלחו, נסה שוב מאוחר יותר."
 
@@ -284,31 +286,31 @@ msgstr "קו\"ח נשלחו בהצלחה"
 msgid "Thenk you for your request"
 msgstr "תודה על פנייתך"
 
-#: public/partials/popup.php:17
+#: public/partials/popup.php:13
+msgid "All the fileds are required"
+msgstr "* כל שדות הטופס חובה"
+
+#: public/partials/popup.php:18
 msgid "Full name"
 msgstr "שם מלא"
 
-#: public/partials/popup.php:41
+#: public/partials/popup.php:42
 msgid "File select"
 msgstr "בחירת קובץ"
 
-#: public/partials/popup.php:52
+#: public/partials/popup.php:54
 msgid "File not selected"
 msgstr "‫לא נבחר קובץ"
 
-#: public/partials/popup.php:53
+#: public/partials/popup.php:55
 msgid "recomended files:"
 msgstr "סוגי הקבצים המומלצים: "
 
-#: public/partials/popup.php:54
-msgid "pdf/doc/docx"
-msgstr "‫ doc / docx / pdf"
-
-#: public/partials/popup.php:60
+#: public/partials/popup.php:62
 msgid "Send Cv"
 msgstr "הגש/י קו”ח"
 
-#: public/partials/popup.php:62
+#: public/partials/popup.php:64
 msgid "Form error. Check the submited data."
 msgstr "*ישנה שגיאה בטופס. אנא בדוק את הנתונים שהזנת."
 
@@ -371,6 +373,12 @@ msgstr "‫API fot Niloosoft HunterHRMS System."
 #. Author of the plugin/theme
 msgid "Meni Nurie"
 msgstr "מני נוריאל"
+
+#~ msgid "CV Applied from Shaari Tzedek Jobs Site"
+#~ msgstr "קורות חיים מאתר משרות אלביט"
+
+#~ msgid "pdf/doc/docx"
+#~ msgstr "‫ doc / docx / pdf"
 
 #~ msgid "Search results intro"
 #~ msgstr "הקדמה לתוצאות חיפוש"

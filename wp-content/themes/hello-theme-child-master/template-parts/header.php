@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		</div>
 		<div class="main-header flex space-between align-center">
-			<div class="logo"><a href="/"><img src="<?= wp_upload_dir()['baseurl'] ?>/images/logo.png" alt="Logo"></a></div>
+			<div class="logo"><a href="/"><img src="<?= wp_upload_dir()['baseurl'] ?>/images/logo.png" alt="לוגו Elbit Systems לדף הבית"></a></div>
 			<div class="menu-header-new">
 				<ul>
 					<li><a href="https://elbitsystems.com/">אתר אלביט</a></li>

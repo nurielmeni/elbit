@@ -100,6 +100,10 @@ var nls =
         });
       console.log('Valid: ', valid);
       validForm();
+
+      if (!valid) {
+        $(form).find('.nls-invalid').first().focus();
+      }
       return valid;
     };
 
@@ -108,7 +112,7 @@ var nls =
       if (invalidFields.length > 0) {
         $('.nls-apply-for-jobs .modal-footer .help-block')
           .html(
-            '<p><span>*ישנה שגיאה בטופס. אנא בדוק את הנתונים שהזנת.</span></p>'
+            '<p><span role="alert">*ישנה שגיאה בטופס. אנא בדוק את הנתונים שהזנת.</span></p>'
           )
           .show();
       } else {
@@ -133,11 +137,11 @@ var nls =
           var invalidElement =
             type === 'radio' ? $(el).parents('.options-wrapper') : $(el);
 
-          $(invalidElement).addClass('nls-invalid');
+          $(invalidElement).addClass('nls-invalid').attr('aria-invalid', true);
           $(el)
             .parents('.nls-apply-field')
             .find('.help-block')
-            .html('<p><span>' + Validators[validator].msg + '</sapn></p>');
+            .html('<p><span role="alert">' + Validators[validator].msg + '</sapn></p>');
         }
       });
       return valid;
@@ -164,7 +168,7 @@ var nls =
     };
 
     var clearValidation = function (form) {
-      form.find('.nls-invalid').removeClass('nls-invalid');
+      form.find('.nls-invalid').removeClass('nls-invalid').attr('aria-invalid', false);
       form.find('.nls-apply-field .help-block').html('');
       validForm();
     };
@@ -173,7 +177,8 @@ var nls =
       $(el)
         .parents('.nls-apply-field')
         .find('.nls-invalid')
-        .removeClass('nls-invalid');
+        .removeClass('nls-invalid')
+        .attr('aria-invalid', false);
       $(el).parents('.nls-apply-field').find('.help-block').text('');
     };
 
@@ -252,11 +257,6 @@ var nls =
         fieldValidate(this);
       });
 
-      // Clear validation errors on focus
-      $('input').on('focus', function () {
-        clearFieldValidation(this);
-      });
-
       // Validate on blur and change
       $('input:not([type="radio"]):not([type="file"]').on(
         'blur change',
@@ -282,6 +282,18 @@ var nls =
       // Handle close button of the modal
       $('#modal-wrapper').on('click', '.close-popup, a.back-step', function () {
         $(this).parents('#modal-wrapper').hide();
+      });
+
+      $('#modal-wrapper').on('keyup', '.close-popup', function (e) {
+        if (e.keyCode === 13) {
+          $(this).parents('#modal-wrapper').hide();
+        }
+      });
+
+      $('#modal-wrapper').on('keyup', 'label.file', function (e) {
+        if (e.keyCode === 13) {
+          $(this).click();
+        }
       });
     });
 

@@ -60,7 +60,14 @@ var SliderPeople = (function($) {
     btnLeft = $('span.btn-dots.prev > i');
 
     btnRight.on('click', function() { slideRight(); });
+    btnRight.on('keyup', function(e) {
+      if (e.key === 'Enter') slideRight();
+    });
+
     btnLeft.on('click', function() { slideLeft(); });
+    btnLeft.on('keyup', function(e) {
+      if (e.key === 'Enter') slideLeft();
+    });
 
     // Mobile events
     MobileEvent.createListener('.slider-people', 'swiped-right', function () {
