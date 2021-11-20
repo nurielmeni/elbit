@@ -201,8 +201,8 @@ var nls =
       // Set the file options
       fileOptions = $('form .file-option').html();
 
-      $firstDialogElm = $('#modal-wrapper').find('input:visible,select:visible,button:visible,textarea:visible').first()
-      $lastDialogElm = $('#modal-wrapper').find('input:visible,select:visible,button:visible,textarea:visible').last();
+      $firstDialogElm = $('#modal-wrapper .close-popup');
+      $lastDialogElm = $('#modal-wrapper .send button');
 
       // Add event listeners
       console.log('Ready Function');
