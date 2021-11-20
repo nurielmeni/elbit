@@ -1,4 +1,4 @@
-<div id="modal-wrapper" class="nls-apply-for-jobs modal" style="display: none;">
+<div id="modal-wrapper" class="nls-apply-for-jobs modal" role="dialog" aria-modal="true" style="display: none;">
     <div class="modal-backdrop"></div>
     <div class="modal-popup">
         <div role="button" tabindex="0" class="close-popup"><img src="<?= wp_upload_dir()['baseurl'] . '/images/close.png' ?>" alt="סגור"></div>
