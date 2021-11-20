@@ -299,7 +299,7 @@ var nls =
         }
       });
 
-      $(document).on('keyup', '#modal-wrapper', function (e) {
+      $(document).on('keydown', '#modal-wrapper', function (e) {
         var target = e.target;
         var shiftPressed = e.shiftKey;
         // If TAB key pressed
@@ -308,12 +308,15 @@ var nls =
           if ($(target).parents('[role=dialog]').length) {
             if ($(target).is($firstDialogElm) && shiftPressed) {
               $lastDialogElm.focus();
+              return false;
             }
             if ($(target).is($lastDialogElm) && !shiftPressed) {
               $firstDialogElm.focus();
+              return false;
             }
           }
         }
+        return true;
       });
 
     });
