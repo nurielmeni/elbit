@@ -299,7 +299,7 @@ var nls =
         }
       });
 
-      $(document).on('keydown', '#modal-wrapper', function (e) {
+      $(document).on('keyup', '#modal-wrapper', function (e) {
         var target = e.target;
         var shiftPressed = e.shiftKey;
         // If TAB key pressed
