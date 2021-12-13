@@ -884,6 +884,9 @@ a {
   margin-bottom: 15px;
   position: relative;
 }
+.item-practice a {
+  display: flex;
+}
 .item-practice img {
   display: block;
   width: 100%;
