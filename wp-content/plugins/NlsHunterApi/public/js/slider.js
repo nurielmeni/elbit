@@ -10,6 +10,11 @@ var SliderPeople = (function ($) {
       } else {
         $(sliderItems[i]).hide();
       }
+      if (i === count + start - 1) {
+        $(sliderItems[i]).attr('aria-live', 'polite');
+      } else {
+        $(sliderItems[i]).attr('aria-live', 'off');
+      }
     }
 
     current <= 0 ? toggleBtn(btnRight, false) : toggleBtn(btnRight, true);
