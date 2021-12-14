@@ -81,6 +81,15 @@ var SliderPeople = (function ($) {
       slideLeft();
     });
 
+    $(slider).keydown(function (e) {
+      if (e.keyCode == 37) { // left
+        slideLeft();
+      }
+      else if (e.keyCode == 39) { // right
+        slideRight();
+      }
+    });
+
     // Set the max people
     reportWindowSize();
 
