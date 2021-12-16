@@ -86,6 +86,12 @@ var SliderPeople = (function ($) {
       slideLeft();
     });
 
+    $('span.btn-dots > i').keydown(function (e) {
+      if (e.keyCode == 13) { // enter
+        $(this).click();
+      }
+    });
+
     $(slider).keydown(function (e) {
       if (e.keyCode == 37) { // left
         slideLeft();
