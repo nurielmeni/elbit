@@ -132,6 +132,7 @@ class NlsHunterApi {
 		$meta .= '<meta property="og:image:height" content="600" />' . "\n";
 		$meta .= '<meta property="og:type" content="website" />' . "\n";
 		$meta .= '<meta name="google-site-verification" content="KsmXCoz37oTAU5Yi9k-1cCzdC8HQFpHtOarZeze0xK0" />' . "\n";
+		$meta .= '<meta name="google-site-verification" content="XnBQJ2OpCC-ccMjCM4LKqKftQQImBpWd9I35YONBEOk" />' . "\n";
 
 
 		$slogen = "Elbit";
