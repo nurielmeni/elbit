@@ -1,21 +1,26 @@
-var SliderPeople = (function($) {
+var SliderPeople = (function ($) {
   var max = 0;
   var current = 0;
   var slider, sliderItems, btnLeft, btnRight;
 
   function setActive(start, count) {
     for (var i = 0; i < sliderItems.length; i++) {
-      if(i >= start && i < count + start) {
-        $(sliderItems[i]).show(); 
+      if (i >= start && i < count + start) {
+        $(sliderItems[i]).show();
       } else {
-        $(sliderItems[i]).hide(); 
+        $(sliderItems[i]).hide();
+      }
+      if (i === count + start - 1) {
+        $(sliderItems[i]).attr('aria-live', 'polite');
+      } else {
+        $(sliderItems[i]).attr('aria-live', 'off');
       }
     }
 
-    current <= 0 ? btnRight.hide() : btnRight.show();
+    current <= 0 ? toggleBtn(btnRight, false) : toggleBtn(btnRight, true);
     current >= (sliderItems.length - visibleSlideNum())
-      ? btnLeft.hide()
-      : btnLeft.show();
+      ? toggleBtn(btnLeft, false)
+      : toggleBtn(btnLeft, true);
   }
 
   function visibleSlideNum() {
@@ -52,22 +57,26 @@ var SliderPeople = (function($) {
     setActive(current, max);
   }
 
-  $(document).ready(function() {
+  function toggleBtn(btn, show) {
+    if (!btn) return;
+    if (show) {
+      $(btn).show();
+      $(btn).attr('aria-hidden', false);
+    } else {
+      $(btn).hide();
+      $(btn).attr('aria-hidden', true);
+    }
+  }
+
+  $(document).ready(function () {
     slider = $('.slider-people');
-    sliderItems = $(slider).find('.item-people'); 
-    
+    sliderItems = $(slider).find('.item-people');
+
     btnRight = $('span.btn-dots.next > i');
     btnLeft = $('span.btn-dots.prev > i');
 
-    btnRight.on('click', function() { slideRight(); });
-    btnRight.on('keyup', function(e) {
-      if (e.key === 'Enter') slideRight();
-    });
-
-    btnLeft.on('click', function() { slideLeft(); });
-    btnLeft.on('keyup', function(e) {
-      if (e.key === 'Enter') slideLeft();
-    });
+    btnRight.on('click', function () { slideRight(); });
+    btnLeft.on('click', function () { slideLeft(); });
 
     // Mobile events
     MobileEvent.createListener('.slider-people', 'swiped-right', function () {
@@ -75,6 +84,21 @@ var SliderPeople = (function($) {
     });
     MobileEvent.createListener('.slider-people', 'swiped-left', function () {
       slideLeft();
+    });
+
+    $('span.btn-dots > i').keydown(function (e) {
+      if (e.keyCode == 13) { // enter
+        $(this).click();
+      }
+    });
+
+    $(slider).keydown(function (e) {
+      if (e.keyCode == 37) { // left
+        slideLeft();
+      }
+      else if (e.keyCode == 39) { // right
+        slideRight();
+      }
     });
 
     // Set the max people

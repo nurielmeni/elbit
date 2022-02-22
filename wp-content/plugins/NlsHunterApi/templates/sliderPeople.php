@@ -1,5 +1,4 @@
-
-<div class="item-people">
+<div class="item-people" aria-live="off">
     <img src="<?= $image ?>" alt="<?= $people->title ?>">
     <div class="inner-people">
         <h3><span class="title"><?= $people->post_title ?></span></h3>

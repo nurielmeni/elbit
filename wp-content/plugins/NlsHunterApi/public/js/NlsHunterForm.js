@@ -3,7 +3,7 @@ var nls =
   (function ($) {
     'use strict';
     // Will hold the text for the file options
-    var fileOptions;
+    var fileOptions, $firstDialogElm, $lastDialogElm;
 
     var Validators = {
       ISRID: {
@@ -201,6 +201,9 @@ var nls =
       // Set the file options
       fileOptions = $('form .file-option').html();
 
+      $firstDialogElm = $('#modal-wrapper .close-popup');
+      $lastDialogElm = $('#modal-wrapper .send button');
+
       // Add event listeners
       console.log('Ready Function');
       // Apply selected jobs
@@ -219,32 +222,32 @@ var nls =
 
           formData.append('action', 'apply_cv_function'),
 
-          $.ajax({
-            url: apply_cv_script.applyajaxurl,
-            data: formData,
-            contentType: false,
-            cache: false,
-            processData: false,
-            dataType: 'json',
-            beforeSend: function () {
-              $('#modal-wrapper .inner-popup.apply-form').hide();
-              $('#modal-wrapper .inner-popup.apply-response').after(
-                '<div id="nls-loader" class="loader">אנא המתן...</div>'
-              );
-            },
-            success: function (response) {
-              $('#nls-loader').remove();
-              console.log('Status: ', response.status);
+            $.ajax({
+              url: apply_cv_script.applyajaxurl,
+              data: formData,
+              contentType: false,
+              cache: false,
+              processData: false,
+              dataType: 'json',
+              beforeSend: function () {
+                $('#modal-wrapper .inner-popup.apply-form').hide();
+                $('#modal-wrapper .inner-popup.apply-response').after(
+                  '<div id="nls-loader" class="loader">אנא המתן...</div>'
+                );
+              },
+              success: function (response) {
+                $('#nls-loader').remove();
+                console.log('Status: ', response.status);
 
-              // Tag manager
-              fbq('track', 'CompleteRegistration');
+                // Tag manager
+                fbq('track', 'CompleteRegistration');
 
-              $('.inner-popup.apply-response').html(response.html).show();
-              // Call this function so the wp will inform the change to the post
-              $(document.body).trigger('post-load');
-            },
-            type: 'POST',
-          });
+                $('.inner-popup.apply-response').html(response.html).show();
+                // Call this function so the wp will inform the change to the post
+                $(document.body).trigger('post-load');
+              },
+              type: 'POST',
+            });
 
           event.preventDefault();
         }
@@ -295,6 +298,27 @@ var nls =
           $(this).click();
         }
       });
+
+      $(document).on('keydown', '#modal-wrapper', function (e) {
+        var target = e.target;
+        var shiftPressed = e.shiftKey;
+        // If TAB key pressed
+        if (e.keyCode == 9) {
+          // If inside a Modal dialog (determined by attribute role="dialog")
+          if ($(target).parents('[role=dialog]').length) {
+            if ($(target).is($firstDialogElm) && shiftPressed) {
+              $lastDialogElm.focus();
+              return false;
+            }
+            if ($(target).is($lastDialogElm) && !shiftPressed) {
+              $firstDialogElm.focus();
+              return false;
+            }
+          }
+        }
+        return true;
+      });
+
     });
 
     return {
